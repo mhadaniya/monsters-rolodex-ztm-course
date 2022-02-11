@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/monsters-rolodex-ztm-course/static/css/main.6cb6e00e.css",
-    "main.js": "/monsters-rolodex-ztm-course/static/js/main.4b02fb38.js",
+    "main.css": "/monsters-rolodex-ztm-course/static/css/main.7a2ef1c3.css",
+    "main.js": "/monsters-rolodex-ztm-course/static/js/main.398048ad.js",
     "static/js/787.f6689535.chunk.js": "/monsters-rolodex-ztm-course/static/js/787.f6689535.chunk.js",
     "index.html": "/monsters-rolodex-ztm-course/index.html",
-    "main.6cb6e00e.css.map": "/monsters-rolodex-ztm-course/static/css/main.6cb6e00e.css.map",
-    "main.4b02fb38.js.map": "/monsters-rolodex-ztm-course/static/js/main.4b02fb38.js.map",
+    "main.7a2ef1c3.css.map": "/monsters-rolodex-ztm-course/static/css/main.7a2ef1c3.css.map",
+    "main.398048ad.js.map": "/monsters-rolodex-ztm-course/static/js/main.398048ad.js.map",
     "787.f6689535.chunk.js.map": "/monsters-rolodex-ztm-course/static/js/787.f6689535.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cb6e00e.css",
-    "static/js/main.4b02fb38.js"
+    "static/css/main.7a2ef1c3.css",
+    "static/js/main.398048ad.js"
   ]
 }
