@@ -21,11 +21,18 @@ class App extends Component {
       .then(users => this.setState({monsters: users}))
   }
 
+  filterAction = (e) => this.setState({ searchField: e.target.value })
+
   render() {
+    const { searchField, monsters } = this.state;
+    const filteredMonsters = monsters.filter(
+      monster => monster.name.toLowerCase().includes(searchField.toLowerCase())
+    );
+
     return (
       <div className="bg-slate-900 h-screen w-screen flex flex-col">
-        <Header />
-        <CardList items={this.state.monsters} />        
+        <Header filterAction={this.filterAction}/>
+        <CardList items={filteredMonsters} />        
         <Footer />
       </div>
     );
